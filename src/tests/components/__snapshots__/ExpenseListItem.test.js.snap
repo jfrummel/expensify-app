@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list item with correct data 1`] = `
+<li>
+  <[object Object]
+    to="/edit/2"
+  >
+    <h3>
+      apples
+    </h3>
+  </[object Object]>
+  <p>
+    amount: $
+    1400
+  </p>
+  <p>
+    Created At: 
+    -172800000
+  </p>
+</li>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component with all expenses showing 1`] = `
+<div>
+  <ol>
+    <ExpenseListItem
+      amount={200}
+      createdAt={0}
+      description="candy"
+      id="1"
+      key="1"
+      note=""
+    />
+    <ExpenseListItem
+      amount={1400}
+      createdAt={-172800000}
+      description="apples"
+      id="2"
+      key="2"
+      note=""
+    />
+    <ExpenseListItem
+      amount={600}
+      createdAt={345600000}
+      description="coffee"
+      id="3"
+      key="3"
+      note=""
+    />
+  </ol>
+</div>
+`;
+
+exports[`renders component with no expenses found 1`] = `
+<div>
+  <h3>
+    No Expenses Found
+  </h3>
+</div>
+`;
