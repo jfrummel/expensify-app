@@ -10,7 +10,7 @@ exports[`renders list item with correct data 1`] = `
     </h3>
   </[object Object]>
   <p>
-    amount: $
+    amount: 
     1400
   </p>
   <p>
