@@ -2,20 +2,20 @@
 
 exports[`renders list item with correct data 1`] = `
 <li>
-  <[object Object]
-    to="/edit/2"
-  >
-    <h3>
+  <h3>
+    <[object Object]
+      to="/edit/2"
+    >
       apples
-    </h3>
-  </[object Object]>
+    </[object Object]>
+  </h3>
   <p>
     amount: 
-    1400
+    $14.00
   </p>
   <p>
-    Created At: 
-    -172800000
+    Created: 
+    December 1, 1969
   </p>
 </li>
 `;
