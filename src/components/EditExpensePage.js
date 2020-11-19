@@ -9,8 +9,6 @@ export class EditExpensePage extends Component {
         this.props.history.push("/");
     };
     onRemove = () => {
-
-        console.log(this.props.expense.id);
         this.props.removeExpense(this.props.expense.id);
         this.props.history.push("/");
     };
