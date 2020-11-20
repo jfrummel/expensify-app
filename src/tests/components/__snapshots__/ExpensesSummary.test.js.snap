@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns snaphsot with multiple expenses 1`] = `
+<div>
+  <p>
+    Viewing 
+    2
+     
+    expenses
+     totalling 
+    $124.88
+  </p>
+</div>
+`;
+
+exports[`returns snaphsot with no expenses 1`] = `
+<div>
+  <p>
+    Viewing 
+    0
+     
+    expenses
+     totalling 
+    $0.00
+  </p>
+</div>
+`;
+
+exports[`returns snaphsot with one expense 1`] = `
+<div>
+  <p>
+    Viewing 
+    1
+     
+    expense
+     totalling 
+    $1.25
+  </p>
+</div>
+`;
