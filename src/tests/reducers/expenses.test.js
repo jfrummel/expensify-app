@@ -39,3 +39,8 @@ test("returns edited expense with invalid id", () => {
     const result = expensesReducer(expenses, { type: "EDIT_EXPENSE", id: "a", updates });
     expect(result).toEqual(expenses);
 });
+
+test("sets expenses state", () => {
+    const state = expensesReducer(expenses, { type: "SET_EXPENSES", expenses });
+    expect(state).toEqual(expenses);
+});
