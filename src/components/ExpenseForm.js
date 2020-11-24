@@ -86,7 +86,7 @@ class ExpenseForm extends Component {
                         onDateChange={this.onDateChange}
                         focused={this.state.focused}
                         onFocusChange={this.onFocusChange}
-                        id="your_unique_id"
+                        id="datePicker"
                         numberOfMonths={1}
                         isOutsideRange={() => false}
                     />

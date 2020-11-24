@@ -1,3 +1,5 @@
 node_modules/
 public/dist/
 debug.log
+.env.test
+.env.development

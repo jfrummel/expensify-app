@@ -4,12 +4,12 @@ import { AddExpensePage } from '../../components/AddExpensePage';
 import expenses from '../fixtures/expenses';
 
 
-let addExpense, history, wrapper;
+let startAddExpense, history, wrapper;
 
 beforeEach(() => {
-    addExpense = jest.fn();
+    startAddExpense = jest.fn();
     history = { push: jest.fn() };
-    wrapper = shallow(<AddExpensePage buttonText="Add Expense" addExpense={addExpense} history={history} />);
+    wrapper = shallow(<AddExpensePage buttonText="Add Expense" startAddExpense={startAddExpense} history={history} />);
 });
 
 test("renders add expense page", () => {
@@ -19,5 +19,5 @@ test("renders add expense page", () => {
 test("handles onSubmit", () => {
     wrapper.find('ExpenseForm').prop('onSubmit')(expenses[2]);
     expect(history.push).toHaveBeenLastCalledWith('/');
-    expect(addExpense).toHaveBeenLastCalledWith(expenses[2]);
+    expect(startAddExpense).toHaveBeenLastCalledWith(expenses[2]);
 });
