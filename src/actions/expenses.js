@@ -24,14 +24,14 @@ export const startAddExpense = (expenseData = {}) => {
     };
 };
 
-export const removeExpense = (id = "") => ({
+export const removeExpense = (id) => ({
     type: "REMOVE_EXPENSE",
     id
 });
 
 export const startRemoveExpense = (id) => {
     return (dispatch) => {
-        database.ref(`expenses/${id}`).remove()
+        return database.ref(`expenses/${id}`).remove()
             .then(() => {
                 dispatch(removeExpense(id));
             });
