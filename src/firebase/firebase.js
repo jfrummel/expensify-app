@@ -32,17 +32,17 @@ export { firebase, database as default };
 
 
 
-// firebase.database().ref('notes').push({
+// firebase.database().ref('note').push({
 //     title: "Beer",
 //     body: "Traquair, Fullers ESB, Wells Bombardier"
 // });
 
 
-// firebase.database().ref('notes/-MMh3XbC1_VssE94rw6x').update({
+// firebase.database().ref('note/-MMh3XbC1_VssE94rw6x').update({
 //     body: "Drink beer"
 // });
 
-// firebase.database().ref('notes/-MMh3XbC1_VssE94rw6x').once('value', (snapshot) => {
+// firebase.database().ref('note/-MMh3XbC1_VssE94rw6x').once('value', (snapshot) => {
 //     console.log(snapshot.val());
 // });
 

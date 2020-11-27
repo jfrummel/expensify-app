@@ -115,7 +115,7 @@ exports[`renders error with invalid form submission 1`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Notes (Optional)"
+      placeholder="note (Optional)"
       value=""
     />
     <button />
@@ -241,7 +241,7 @@ exports[`renders error with invalid form submission 2`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Notes (Optional)"
+      placeholder="note (Optional)"
       value=""
     />
     <button />
@@ -364,7 +364,7 @@ exports[`renders expense form 1`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Notes (Optional)"
+      placeholder="note (Optional)"
       value=""
     />
     <button />
@@ -487,7 +487,8 @@ exports[`renders expense form with expense data 1`] = `
     />
     <textarea
       onChange={[Function]}
-      placeholder="Notes (Optional)"
+      placeholder="note (Optional)"
+      value=""
     />
     <button />
   </form>
