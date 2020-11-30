@@ -9,7 +9,7 @@ exports[`correctly renders header component 1`] = `
     <[object Object]
       activeClassName="is-active"
       exact={true}
-      to="/"
+      to="/dashboard"
     >
       Dashboard
     </[object Object]>
@@ -19,12 +19,11 @@ exports[`correctly renders header component 1`] = `
     >
       Create Expense
     </[object Object]>
-    <[object Object]
-      activeClassName="is-active"
-      to="/help"
+    <button
+      onClick={[MockFunction]}
     >
-      Help
-    </[object Object]>
+      Logout
+    </button>
   </nav>
 </header>
 `;

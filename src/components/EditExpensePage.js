@@ -6,12 +6,12 @@ import ExpenseForm from './ExpenseForm';
 export class EditExpensePage extends Component {
     onSubmit = (expense) => {
         this.props.startEditExpense(this.props.expense.id, expense).then(() => {
-            this.props.history.push("/");
+            this.props.history.push("/dashboard");
         });
     };
     onRemove = () => {
         this.props.startRemoveExpense(this.props.expense.id).then(() => {
-            this.props.history.push("/");
+            this.props.history.push("/dashboard");
         });
     };
     render() {
